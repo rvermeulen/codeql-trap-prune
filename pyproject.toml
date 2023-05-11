@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "codeql-trap-prune"
+version = "0.1.0"
+description = "Experimental tool to remove TRAP files in databases created by CodeQL to exclude source files that are not of interest."
+authors = ["Remco Vermeulen <rvermeulen@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyYAML = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
